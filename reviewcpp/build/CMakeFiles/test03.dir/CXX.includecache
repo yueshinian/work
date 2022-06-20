@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yz/code/reviewcpp/src/test03.cpp
+iostream
+-
+memory
+-
+string.h
+-
+vector
+-
+algorithm
+-
+mutex
+-
+thread
+-
+atomic
+-
+condition_variable
+-
+pthread.h
+-
+unordered_map
+-
+

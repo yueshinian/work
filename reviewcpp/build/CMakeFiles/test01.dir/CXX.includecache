@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/test01.h
+
+/home/yz/code/reviewcpp/src/test01.cpp
+iostream
+-
+memory
+-
+vector
+-
+algorithm
+-
+utility
+-
+cstring
+-
+test01.h
+/home/yz/code/reviewcpp/src/test01.h
+
